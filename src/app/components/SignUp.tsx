@@ -17,7 +17,9 @@ export function SignUp() {
         >
           <div>
             <div className="px-10">
-              <div className="text-3xl font-extrabold">Sign up</div>
+              <div className="text-3xl font-extrabold">
+                Sign up for this app
+              </div>
             </div>
             <div className="pt-2">
               <LabelledInput
@@ -47,7 +49,6 @@ export function SignUp() {
                     }
                   );
                   setMessage(data.data.data);
-                  
                 }}
               >
                 Sign in
